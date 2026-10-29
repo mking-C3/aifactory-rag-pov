@@ -1,0 +1,11 @@
+# Terraform state can contain secrets and resource IDs. Never commit it.
+*.tfstate
+*.tfstate.*
+.terraform/
+*.tfvars
+crash.log
+# Credentials and local env
+*.json.key
+.env
+.venv/
+__pycache__/
